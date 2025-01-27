@@ -2,10 +2,9 @@
 
 
 ## Project Overview
+This project explores the integration and evaluation of LLM-based healthcare chatbots with a focus on real-world applications and emerging AI trends like Agentic AI and Physical AI. Unlike traditional evaluation models, this project not only assesses chatbot performance but also emphasizes their practical deployment in specialized healthcare domains such as mental health, chronic disease management, and telemedicine.
 
-This project focuses on developing an evaluation framework for assessing the performance of LLM-powered healthcare chatbots. With the rise of artificial intelligence (AI) and the increasing use of generative AI models like GPT-4 in healthcare, there is a pressing need for standardized metrics to evaluate chatbots used for healthcare-related tasks such as symptom assessment, patient support, and mental health assistance.
-
-The goal of this research is to design a robust, user-centered evaluation framework that considers accuracy, empathy, trustworthiness, and clinical task effectiveness, ensuring these AI solutions are not only efficient but also safe, ethical, and effective in real-world healthcare applications.
+We aim to develop a comprehensive user-centered evaluation framework that considers ethical implications, personalization, empathy, and trust-building in healthcare chatbots. The project also explores how these AI-driven solutions can improve patient outcomes and reduce the burden on healthcare providers, pushing beyond existing theoretical frameworks to real-world applications.
 
 ### Key Features
 
