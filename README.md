@@ -1,6 +1,18 @@
 # Evaluating Large Language Models (LLMs) for Healthcare Chatbots
 
 
+Situation: Current healthcare chatbot models primarily focus on surface-level performance metrics like accuracy and response fluency, often overlooking critical aspects such as empathy, personalization, and user trust.
+
+Task: We aim to enhance healthcare chatbot evaluation by integrating user-centered metrics that account for real-world clinical tasks, emotional support, and trust-building to make chatbots more suitable for patient care.
+
+Action: Our project introduces a comprehensive evaluation framework that not only evaluates language processing but also considers ethics, bias, and the effectiveness of empathetic interactions. We are also exploring specialized applications in mental health and chronic disease management, where emotional and personalized responses are critical.
+
+Result: This innovative approach sets our project apart from existing models by focusing on practical implementation in healthcare and addressing the ethical and emotional nuances of patient interactions, ultimately aiming for improved health outcomes and reduced healthcare provider workload.
+
+
+
+
+
 ## Project Overview
 This project explores the integration and evaluation of LLM-based healthcare chatbots with a focus on real-world applications and emerging AI trends like Agentic AI and Physical AI. Unlike traditional evaluation models, this project not only assesses chatbot performance but also emphasizes their practical deployment in specialized healthcare domains such as mental health, chronic disease management, and telemedicine.
 
