@@ -1,49 +1,31 @@
-# Evaluating Large Language Models (LLMs) for Healthcare Chatbots
+# Post-Congestion Pricing in Manhattan: Evaluating the Impact on Citi Bike Operations
 
+## Overview
 
-Situation: Current healthcare chatbot models primarily focus on surface-level performance metrics like accuracy and response fluency, often overlooking critical aspects such as empathy, personalization, and user trust.
+### This project aims to evaluate the effects of the recently implemented congestion pricing on Citi Bike usage in Manhattan. The study explores how congestion pricing influences Citi Bike trip frequency, duration, geographic distribution, and station usage while identifying policy adjustments to optimize supply and demand.
 
-Task: We aim to enhance healthcare chatbot evaluation by integrating user-centered metrics that account for real-world clinical tasks, emotional support, and trust-building to make chatbots more suitable for patient care.
+## Objectives
 
-Action: Our project introduces a comprehensive evaluation framework that not only evaluates language processing but also considers ethics, bias, and the effectiveness of empathetic interactions. We are also exploring specialized applications in mental health and chronic disease management, where emotional and personalized responses are critical.
+### Assess the impact of congestion pricing on Citi Bike usage patterns in Manhattan.
 
-Result: This innovative approach sets our project apart from existing models by focusing on practical implementation in healthcare and addressing the ethical and emotional nuances of patient interactions, ultimately aiming for improved health outcomes and reduced healthcare provider workload.
+### Analyze changes in trip frequency, duration, and geographic distribution of Citi Bike rides.
 
+### Evaluate the effect of new Citi Bike stations on ridership growth and demand distribution.
 
+### Propose policy recommendations to enhance supply-demand balance in the Citi Bike network.
 
+## Literature Review
 
+### A detailed literature review has been conducted to support this project, covering:
 
-## Project Overview
-This project explores the integration and evaluation of LLM-based healthcare chatbots with a focus on real-world applications and emerging AI trends like Agentic AI and Physical AI. Unlike traditional evaluation models, this project not only assesses chatbot performance but also emphasizes their practical deployment in specialized healthcare domains such as mental health, chronic disease management, and telemedicine.
+### The relationship between congestion pricing and alternative transportation modes.
 
-We aim to develop a comprehensive user-centered evaluation framework that considers ethical implications, personalization, empathy, and trust-building in healthcare chatbots. The project also explores how these AI-driven solutions can improve patient outcomes and reduce the burden on healthcare providers, pushing beyond existing theoretical frameworks to real-world applications.
+### The impact of congestion pricing on Citi Bike ridership patterns.
 
-### Key Features
+### Geographic and temporal variations in Citi Bike trip frequency and duration.
 
-Innovative Evaluation Metrics: The project introduces new metrics to assess the human-centric aspects of healthcare chatbots, including empathy, trust, and personalization.
+### The role of new bike stations in improving accessibility and usage.
 
-Comprehensive Framework: The framework provides a holistic approach to evaluating LLM-based healthcare chatbots, considering both technical performance and user experience.
+### Policy interventions to optimize supply and demand in bike-sharing systems.
 
-Empirical Validation: The framework will be empirically tested with real-world or simulated healthcare chatbot data to demonstrate its applicability and effectiveness in healthcare contexts.
-
-
-### Research Objectives
-Design and Propose a New Evaluation Framework: A framework for assessing LLM-based chatbots that incorporates both traditional technical metrics and human-centered aspects, such as emotional support and trust-building.
-
-Address Gaps in Existing Metrics: Existing metrics primarily focus on model performance like accuracy but overlook empathy, user trust, and clinical utility—this project will fill that gap.
-
-Empirical Validation: The framework will be tested with real-world data (e.g., data from mental health chatbots) or simulated case studies to assess its effectiveness and reliability.
-
-### Motivation and Impact
-With the increasing reliance on AI in healthcare, particularly in areas like mental health support and patient education, ensuring that chatbots are not only efficient but also safe, personalized, and compassionate is essential. This project aims to:
-Enhance patient trust in AI-driven healthcare solutions.
-Ensure that healthcare chatbots are empowered with empathy to support vulnerable patients effectively.
-Provide a standardized evaluation that could become an industry benchmark for assessing healthcare chatbots.
-
-### Technologies Used
-Python: For developing and testing the framework, as well as processing and analyzing data.
-Natural Language Processing (NLP): To assess how well chatbots generate human-like responses.
-Machine Learning: For evaluating model performance on various healthcare tasks.
-Jupyter/ Collab Notebooks: For documenting research, experiments, and results.
-Datasets: Use of real-world healthcare data (or simulated datasets) to evaluate the framework.
-
+## For more details, refer to the literature_review_citi_bike document in this repository.
