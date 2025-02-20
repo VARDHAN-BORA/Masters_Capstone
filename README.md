@@ -21,7 +21,7 @@ The project will employ techniques such as:
 - Install dependencies: `pip install -r requirements.txt`
 
 ## Team Members
-- [Your Name]
-- [Team Member 1]
-- [Team Member 2]
-- [Team Member 3]
+- Venkata Sai Vardhan Bora
+- Praveen
+- Raj Maharana
+- Andria Grace
