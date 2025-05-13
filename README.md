@@ -1,27 +1,29 @@
-# Evaluating the Impact of Congestion Pricing on Citi Bike Operations
+# 🚲 Citi Bike Forecasting in a Post-Congestion Pricing NYC
 
-## Project Overview
-This project aims to quantitatively assess the impact of congestion pricing on Citi Bike usage in Manhattan using advanced statistical and machine learning techniques.
+In January 2025, New York City became the first U.S. metropolis to implement congestion pricing, dramatically reshaping how people move through Manhattan. As car tolls reshuffle commuting patterns, Citi Bike — NYC’s flagship bike-share program — is witnessing a significant shift in demand. This project explores that transformation.
 
-## Objectives
-- Perform a comprehensive assessment of Citi Bike trip data pre- and post-congestion pricing.
-- Analyze variations in ride frequency, trip duration, and station utilization.
-- Evaluate the impact of new bike stations on ridership redistribution.
-- Develop data-driven policy recommendations leveraging AI-driven optimization techniques.
+We present a data-driven framework to forecast Citi Bike usage across Manhattan stations by integrating four years of ride history (2021–2024), real-time weather conditions, and rich urban contextual features like proximity to transit hubs, malls, parks, and residential zones.
 
-## Methodology
-The project will employ techniques such as:
-- Data Collection & Feature Engineering
-- Statistical & Machine Learning Analysis (ARIMA, Random Forest, etc.)
-- Geospatial Analysis (Heatmaps, KDE plots)
-- Policy Recommendations & AI-Driven Optimization
+This study doesn’t stop at forecasting. We also dig deep into *why* ridership changes — identifying which urban features matter most, how new stations are redistributing demand, and what strategies can help the system adapt more effectively to post-congestion pricing behaviors.
 
-## Installation & Requirements
-- Python 3.8 or later
-- Install dependencies: `pip install -r requirements.txt`
+### What We Did:
+- Merged historical Citi Bike trip data with urban and weather features
+- Evaluated 16 forecasting models including ARIMA, SARIMAX, Prophet, XGBoost, Random Forest, and LSTM
+- Analyzed ride frequency, trip duration, and geospatial redistribution of usage
+- Simulated the impact of newly added stations in high-traffic zones
+- Generated policy recommendations for optimizing station allocation and resource planning
 
-## Team Members
-- Venkata Sai Vardhan Bora
-- Praveen
-- Raj Maharana
-- Andria Grace
+### Key Insights:
+- **LSTM models** consistently outperformed traditional models in predicting station-level demand
+- Proximity to **metro stations, parks, and retail areas** had the strongest effect on trip volumes
+- The introduction of new bike stations around the Central Business District helped **relieve pressure** on previously overloaded hubs
+- The forecasting framework can support **real-time planning**, especially during major policy shifts like congestion pricing
+
+### Why It Matters:
+With micromobility becoming a central pillar of urban transport, especially in the face of climate policies and congestion controls, understanding — and anticipating — demand is no longer optional. Our work offers a scalable template for cities worldwide aiming to future-proof their bike-sharing infrastructure.
+
+---
+
+
+🔍 Paper and technical details included in this repository.
+
