@@ -1,44 +1,29 @@
-# 🚲 Evaluating the Impact of Congestion Pricing on Citi Bike Operations
+# 🚲 Citi Bike Forecasting in a Post-Congestion Pricing NYC
 
-## Project Overview
-This project aims to quantitatively assess the impact of congestion pricing on Citi Bike usage in Manhattan using advanced statistical and machine learning techniques. With congestion pricing launched in January 2025, we explore how this policy shift affects urban micromobility, specifically the frequency, duration, and spatial distribution of Citi Bike rides.
+In January 2025, New York City became the first U.S. metropolis to implement congestion pricing, dramatically reshaping how people move through Manhattan. As car tolls reshuffle commuting patterns, Citi Bike — NYC’s flagship bike-share program — is witnessing a significant shift in demand. This project explores that transformation.
 
-## Objectives
-- Perform a comprehensive assessment of Citi Bike trip data pre- and post-congestion pricing.
-- Analyze variations in ride frequency, trip duration, and station utilization.
-- Evaluate the impact of new bike stations on ridership redistribution.
-- Develop data-driven policy recommendations leveraging AI-driven optimization techniques.
+We present a data-driven framework to forecast Citi Bike usage across Manhattan stations by integrating four years of ride history (2021–2024), real-time weather conditions, and rich urban contextual features like proximity to transit hubs, malls, parks, and residential zones.
 
-## Methodology
-The project employs the following techniques:
-- **Data Collection & Feature Engineering**  
-  Integration of Citi Bike data (2021–2024) with daily weather data and urban features (e.g., parks, metro stations, malls) within 500m radius per station.
-- **Time Series & Machine Learning Models**  
-  Forecasting methods include ARIMA, SARIMAX, Prophet, Random Forest, XGBoost, Ridge Regression, and LSTM.
-- **Geospatial Analysis**  
-  Used to visualize station usage and proximity to key urban infrastructure using heatmaps and spatial clustering.
-- **Policy Recommendations & AI Optimization**  
-  Insights translated into actionable strategies for improving Citi Bike operations post-congestion pricing.
+This study doesn’t stop at forecasting. We also dig deep into *why* ridership changes — identifying which urban features matter most, how new stations are redistributing demand, and what strategies can help the system adapt more effectively to post-congestion pricing behaviors.
 
-## Installation & Requirements
-- Python 3.8 or later
-- Required packages are listed in `requirements.txt`
-- To install dependencies, run:
-  ```bash
-  pip install -r requirements.txt
+### What We Did:
+- Merged historical Citi Bike trip data with urban and weather features
+- Evaluated 16 forecasting models including ARIMA, SARIMAX, Prophet, XGBoost, Random Forest, and LSTM
+- Analyzed ride frequency, trip duration, and geospatial redistribution of usage
+- Simulated the impact of newly added stations in high-traffic zones
+- Generated policy recommendations for optimizing station allocation and resource planning
 
-## Results Summary
-Best Performing Model: LSTM showed highest forecast accuracy at selected Manhattan stations.
+### Key Insights:
+- **LSTM models** consistently outperformed traditional models in predicting station-level demand
+- Proximity to **metro stations, parks, and retail areas** had the strongest effect on trip volumes
+- The introduction of new bike stations around the Central Business District helped **relieve pressure** on previously overloaded hubs
+- The forecasting framework can support **real-time planning**, especially during major policy shifts like congestion pricing
 
-Urban Feature Insights: Proximity to metro stations, parks, and malls had strong influence on trip counts.
+### Why It Matters:
+With micromobility becoming a central pillar of urban transport, especially in the face of climate policies and congestion controls, understanding — and anticipating — demand is no longer optional. Our work offers a scalable template for cities worldwide aiming to future-proof their bike-sharing infrastructure.
 
-Policy Recommendations: Redistribution of bike docks to high-demand zones can mitigate congestion-related surges.
+---
 
-## Team Members
-Venkata Sai Vardhan Bora 
 
-Praveen Kumar Govind Reddy 
+🔍 Paper and technical details included in this repository.
 
-Prudhvi Raj Maharana 
-
-Andria Grace 
